@@ -1,8 +1,8 @@
 import express from "express";
+import config from "./config";
 
 const app = express();
-const port = 4000;
 
-app.listen(port, () => {
-  console.log(`🚀  Server ready at http://localhost:4000`);
+app.listen(config.port, () => {
+  console.log(`🚀  Server ready at http://localhost:${config.port}`);
 });
