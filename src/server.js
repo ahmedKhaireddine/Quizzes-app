@@ -1,9 +1,12 @@
 import express from "express";
 import { ApolloServer, gql } from 'apollo-server-express';
+import databaseConnect from "./database/connect";
 import config from "./config";
 
 (async () => {
   const app = express();
+
+  await databaseConnect();
 
   const typeDefs = gql`
   type Query {
