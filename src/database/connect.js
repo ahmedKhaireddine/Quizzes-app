@@ -10,7 +10,7 @@ export default async () => {
       { useNewUrlParser: true, useUnifiedTopology: true }
     );
 
-    console.log("database connected.");
+    console.log("🚀  Database connected");
   } catch (error) {
     console.log(error);
   }

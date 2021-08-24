@@ -1,0 +1,10 @@
+type Query {
+  topics: [Topic!]!
+}
+
+type Topic {
+  _id: ID!
+  is_active: Boolean!
+  order: Int!
+  title: String!
+}
