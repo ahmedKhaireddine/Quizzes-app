@@ -4,6 +4,7 @@
   "description": "",
   "main": "server.js",
   "scripts": {
+    "database:insert": "babel-node ./src/database/insert.js",
     "start": "babel-watch src/server.js -e .js,.graphql"
   },
   "repository": {

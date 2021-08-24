@@ -1,0 +1,17 @@
+[
+  {
+    "is_active": true,
+    "order": 1,
+    "title": "Cuisine"
+  },
+  {
+    "is_active": true,
+    "order": 2,
+    "title": "Histoire"
+  },
+  {
+    "is_active": true,
+    "order": 3,
+    "title": "Sports"
+  }
+]
