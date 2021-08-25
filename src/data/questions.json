@@ -1,0 +1,1136 @@
+[
+  {
+    "choices": [
+      {
+        "id": 1,
+        "value": "12",
+        "weight": 0
+      },
+      {
+        "id": 2,
+        "value": "16",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "value": "20",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "value": "24",
+        "weight": 1
+      }
+    ],
+    "is_active": true,
+    "title": "Combien d’équipes seront présentes lors de l’Euro 2016 de foot ?",
+    "topic": "Sports"
+  },
+  {
+    "choices": [
+      {
+        "id": 1,
+        "value": "Manchester United",
+        "weight": 0
+      },
+      {
+        "id": 2,
+        "value": "Arsenal FC",
+        "weight": 1
+      },
+      {
+        "id": 3,
+        "value": "Sunderland AFC",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "value": "Manchester City",
+        "weight": 0
+      }
+    ],
+    "is_active": true,
+    "title": "Quel club de foot anglais joue dans l’enceinte de l’Emirates Stadium ?",
+    "topic": "Sports"
+  },
+  {
+    "choices": [
+      {
+        "id": 1,
+        "value": "Nice",
+        "weight": 0
+      },
+      {
+        "id": 2,
+        "value": "Saint-Étienne",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "value": "Nantes",
+        "weight": 1
+      },
+      {
+        "id": 4,
+        "value": "Toulouse",
+        "weight": 0
+      }
+    ],
+    "is_active": true,
+    "title": "Parmi ces villes françaises, laquelle n’accueillera pas de match de l’Euro 2016 ?",
+    "topic": "Sports"
+  },
+  {
+    "choices": [
+      {
+        "id": 1,
+        "value": "Mathieu Valbuena",
+        "weight": 0
+      },
+      {
+        "id": 2,
+        "value": "Andres Iniesta",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "value": "Carlos Tevez",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "value": "Lionel Messi",
+        "weight": 1
+      }
+    ],
+    "is_active": true,
+    "title": "Quel footballeur est surnommé la Puce ?",
+    "topic": "Sports"
+  },
+  {
+    "choices": [
+      {
+        "id": 1,
+        "value": "Autriche/Hongrie/Islande",
+        "weight": 0
+      },
+      {
+        "id": 2,
+        "value": "Roumanie/Albanie/Suisse",
+        "weight": 1
+      },
+      {
+        "id": 3,
+        "value": "Angleterre/Russie/Slovaquie",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "value": "Croatie/République tchèque/Turquie",
+        "weight": 0
+      }
+    ],
+    "is_active": true,
+    "title": "Quelles sont les 3 équipes figurant dans le groupe de la France pour l’Euro 2016 de foot ?",
+    "topic": "Sports"
+  },
+  {
+    "choices": [
+      {
+        "id": 1,
+        "value": "1999",
+        "weight": 0
+      },
+      {
+        "id": 2,
+        "value": "2002",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "value": "2006",
+        "weight": 1
+      },
+      {
+        "id": 4,
+        "value": "2008",
+        "weight": 0
+      }
+    ],
+    "is_active": true,
+    "title": "En quelle année Zinédine Zidane a-t-il pris sa retraite en tant que joueur ?",
+    "topic": "Sports"
+  },
+  {
+    "choices": [
+      {
+        "id": 1,
+        "value": "Le FC Porto",
+        "weight": 0
+      },
+      {
+        "id": 2,
+        "value": "Le Málaga CF",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "value": "Le Real Madrid",
+        "weight": 1
+      },
+      {
+        "id": 4,
+        "value": "Le FC Barcelone",
+        "weight": 0
+      }
+    ],
+    "is_active": true,
+    "title": "Quelle équipe de foot joue dans l’enceinte du stade de Santiago Bernabeu ?",
+    "topic": "Sports"
+  },
+  {
+    "choices": [
+      {
+        "id": 1,
+        "value": "Le FC Porto",
+        "weight": 0
+      },
+      {
+        "id": 2,
+        "value": "Le Málaga CF",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "value": "Le Real Madrid",
+        "weight": 1
+      },
+      {
+        "id": 4,
+        "value": "Le FC Barcelone",
+        "weight": 0
+      }
+    ],
+    "is_active": true,
+    "title": "Quelle équipe de foot joue dans l’enceinte du stade de Santiago Bernabeu ?",
+    "topic": "Sports"
+  },
+  {
+    "choices": [
+      {
+        "id": 1,
+        "value": "Michel Platini",
+        "weight": 0
+      },
+      {
+        "id": 2,
+        "value": "Didier Deschamps",
+        "weight": 1
+      },
+      {
+        "id": 3,
+        "value": "Laurent Blanc",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "value": "Claude Puel",
+        "weight": 0
+      }
+    ],
+    "is_active": true,
+    "title": "Quel est le nom du sélectionneur des Bleus en 2016 ?",
+    "topic": "Sports"
+  },
+  {
+    "choices": [
+      {
+        "id": 1,
+        "value": "Allianz Riviera",
+        "weight": 0
+      },
+      {
+        "id": 2,
+        "value": "Stade Geoffroy-Guichard",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "value": "Stade Chaban-Delmas",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "value": "Matmut Atlantique",
+        "weight": 1
+      }
+    ],
+    "is_active": true,
+    "title": "Quel est le nom du stade de la ville de Bordeaux qui accueillera des matchs de l’Euro 2016 ?",
+    "topic": "Sports"
+  },
+  {
+    "choices": [
+      {
+        "id": 1,
+        "value": "Manchester City",
+        "weight": 1
+      },
+      {
+        "id": 2,
+        "value": "Chelsea",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "value": "Athletico Madrid",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "value": "Borussia Dortmund",
+        "weight": 0
+      }
+    ],
+    "is_active": true,
+    "title": "Quelle équipe a éliminé le PSG en quarts de finale de la Ligue des Champions 2016 ?",
+    "topic": "Sports"
+  },
+  {
+    "choices": [
+      {
+        "id": 1,
+        "value": "Péno",
+        "weight": 0
+      },
+      {
+        "id": 2,
+        "value": "Super Victor",
+        "weight": 1
+      },
+      {
+        "id": 3,
+        "value": "Goalix",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "value": "Footix",
+        "weight": 0
+      }
+    ],
+    "is_active": true,
+    "title": "Quel est le nom de la mascotte de l’Euro 2016 ?",
+    "topic": "Sports"
+  },
+  {
+    "choices": [
+      {
+        "id": 1,
+        "value": "Cristiano Ronaldo",
+        "weight": 0
+      },
+      {
+        "id": 2,
+        "value": "Neymar",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "value": "Lionel Messi",
+        "weight": 1
+      },
+      {
+        "id": 4,
+        "value": "Thomas Müller",
+        "weight": 0
+      }
+    ],
+    "is_active": true,
+    "title": "Quel footballeur a été élu Ballon d’or 2015 ?",
+    "topic": "Sports"
+  },
+  {
+    "choices": [
+      {
+        "id": 1,
+        "value": "Hamid Karzai",
+        "weight": 0
+      },
+      {
+        "id": 2,
+        "value": "Pervez Musharraf",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "value": "Hosni Moubarak",
+        "weight": 1
+      },
+      {
+        "id": 4,
+        "value": "Mohamed Ould Abdel Aziz",
+        "weight": 0
+      }
+    ],
+    "is_active": true,
+    "title": "Quel président égyptien a dû abandonner le pouvoir en 2011, suite au Printemps arabe ?",
+    "topic": "Histoire"
+  },
+  {
+    "choices": [
+      {
+        "id": 1,
+        "value": "En 1906",
+        "weight": 0
+      },
+      {
+        "id": 2,
+        "value": "En 1912",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "value": "En 1917",
+        "weight": 1
+      },
+      {
+        "id": 4,
+        "value": "En 1933",
+        "weight": 0
+      }
+    ],
+    "is_active": true,
+    "title": "En quelle année eut lieu la célèbre Révolution russe de février ?",
+    "topic": "Histoire"
+  },
+  {
+    "choices": [
+      {
+        "id": 1,
+        "value": "En 1789",
+        "weight": 0
+      },
+      {
+        "id": 2,
+        "value": "En 1871",
+        "weight": 1
+      },
+      {
+        "id": 3,
+        "value": "En 1914",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "value": "En 1941",
+        "weight": 0
+      }
+    ],
+    "is_active": true,
+    "title": "En quelle année eut lieu la révolte de la Commune de Paris ?",
+    "topic": "Histoire"
+  },
+  {
+    "choices": [
+      {
+        "id": 1,
+        "value": "Nasser",
+        "weight": 0
+      },
+      {
+        "id": 2,
+        "value": "Gandhi",
+        "weight": 1
+      },
+      {
+        "id": 3,
+        "value": "Lénine",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "value": "Mao",
+        "weight": 0
+      }
+    ],
+    "is_active": true,
+    "title": "Qui a entrepris la célèbre Marche du Sel ?",
+    "topic": "Histoire"
+  },
+  {
+    "choices": [
+      {
+        "id": 1,
+        "value": "En 1856",
+        "weight": 0
+      },
+      {
+        "id": 2,
+        "value": "En 1896",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "value": "En 1906",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "value": "En 1936",
+        "weight": 1
+      }
+    ],
+    "is_active": true,
+    "title": "En quelle année a commencé la guerre civile d'Espagne ?",
+    "topic": "Histoire"
+  },
+  {
+    "choices": [
+      {
+        "id": 1,
+        "value": "Marcos Pérez Jiménez",
+        "weight": 0
+      },
+      {
+        "id": 2,
+        "value": "Rómulo Betancourt",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "value": "Salvador Allende",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "value": "Fulgencio Batista",
+        "weight": 1
+      }
+    ],
+    "is_active": true,
+    "title": "Qui fut destitué par Fidel Castro en 1959 ?",
+    "topic": "Histoire"
+  },
+  {
+    "choices": [
+      {
+        "id": 1,
+        "value": "En Grèce",
+        "weight": 0
+      },
+      {
+        "id": 2,
+        "value": "Au Portugal",
+        "weight": 1
+      },
+      {
+        "id": 3,
+        "value": "En Hollande",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "value": "En Yougoslavie",
+        "weight": 0
+      }
+    ],
+    "is_active": true,
+    "title": "Dans quel pays s'est déroulée la Révolution des Œillets en 1974 ?",
+    "topic": "Histoire"
+  },
+  {
+    "choices": [
+      {
+        "id": 1,
+        "value": "Aux États-Unis",
+        "weight": 0
+      },
+      {
+        "id": 2,
+        "value": "En Chine",
+        "weight": 1
+      },
+      {
+        "id": 3,
+        "value": "En Italie",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "value": "En Afrique du Sud",
+        "weight": 0
+      }
+    ],
+    "is_active": true,
+    "title": "Dans quel pays eut lieu la Révolte des Boxers ?",
+    "topic": "Histoire"
+  },
+  {
+    "choices": [
+      {
+        "id": 1,
+        "value": "En Grèce",
+        "weight": 1
+      },
+      {
+        "id": 2,
+        "value": "En Belgique",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "value": "En Algérie",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "value": "Au Mexique",
+        "weight": 0
+      }
+    ],
+    "is_active": true,
+    "title": "Dans quel pays eut lieu la dictature des Colonels ?",
+    "topic": "Histoire"
+  },
+  {
+    "choices": [
+      {
+        "id": 1,
+        "value": "Bordeaux",
+        "weight": 0
+      },
+      {
+        "id": 2,
+        "value": "Clermont-Ferrand",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "value": "Nancy",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "value": "Lyon",
+        "weight": 1
+      }
+    ],
+    "is_active": true,
+    "title": "Dans quelle ville française, la révolte des Canuts a-t-elle eu lieu le 21 novembre 1831 ?",
+    "topic": "Histoire"
+  },
+  {
+    "choices": [
+      {
+        "id": 1,
+        "value": "En 1789",
+        "weight": 0
+      },
+      {
+        "id": 2,
+        "value": "En 1848",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "value": "En 1905",
+        "weight": 1
+      },
+      {
+        "id": 4,
+        "value": "En 1995",
+        "weight": 0
+      }
+    ],
+    "is_active": true,
+    "title": "En quelle année eut lieu la fameuse mutinerie du cuirassé Potemkine ?",
+    "topic": "Histoire"
+  },
+  {
+    "choices": [
+      {
+        "id": 1,
+        "value": "En Alsace",
+        "weight": 0
+      },
+      {
+        "id": 2,
+        "value": "En Bretagne",
+        "weight": 1
+      },
+      {
+        "id": 3,
+        "value": "En Picardie",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "value": "En Provence",
+        "weight": 0
+      }
+    ],
+    "is_active": true,
+    "title": "Dans quelle région française, la révolte des Chouans a-t-elle commencé en 1791 ?",
+    "topic": "Histoire"
+  },
+  {
+    "choices": [
+      {
+        "id": 1,
+        "value": "Ukraine",
+        "weight": 1
+      },
+      {
+        "id": 2,
+        "value": "Pologne",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "value": "Grèce",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "value": "Turquie",
+        "weight": 0
+      }
+    ],
+    "is_active": true,
+    "title": "Dans quel pays, la Révolution orange eut-elle lieu en 2004 ?",
+    "topic": "Histoire"
+  },
+  {
+    "choices": [
+      {
+        "id": 1,
+        "value": "Nehru",
+        "weight": 0
+      },
+      {
+        "id": 2,
+        "value": "Gandhi",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "value": "Mao",
+        "weight": 1
+      },
+      {
+        "id": 4,
+        "value": "Staline",
+        "weight": 0
+      }
+    ],
+    "is_active": true,
+    "title": "Qui mena la Longue Marche et la Révolution culturelle ?",
+    "topic": "Histoire"
+  },
+  {
+    "choices": [
+      {
+        "id": 1,
+        "value": "L'orange",
+        "weight": 0
+      },
+      {
+        "id": 2,
+        "value": "La mûre",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "value": "L'ananas",
+        "weight": 1
+      },
+      {
+        "id": 4,
+        "value": "La framboise",
+        "weight": 0
+      }
+    ],
+    "is_active": true,
+    "title": "De quel fruit, la Spanish lisse est-elle une variété ?",
+    "topic": "Cuisine"
+  },
+  {
+    "choices": [
+      {
+        "id": 1,
+        "value": "La groseille",
+        "weight": 0
+      },
+      {
+        "id": 2,
+        "value": "La framboise",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "value": "La mûre",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "value": "La canneberge",
+        "weight": 1
+      }
+    ],
+    "is_active": true,
+    "title": "Quel est le nom le plus courant pour l'ataca du Québec ?",
+    "topic": "Cuisine"
+  },
+  {
+    "choices": [
+      {
+        "id": 1,
+        "value": "L'Inde",
+        "weight": 1
+      },
+      {
+        "id": 2,
+        "value": "La Chine",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "value": "La Tanzanie",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "value": "Le Costa Rica",
+        "weight": 0
+      }
+    ],
+    "is_active": true,
+    "title": "Quel pays est le premier producteur mondial de bananes ?",
+    "topic": "Cuisine"
+  },
+  {
+    "choices": [
+      {
+        "id": 1,
+        "value": "La pomme",
+        "weight": 0
+      },
+      {
+        "id": 2,
+        "value": "La châtaigne",
+        "weight": 1
+      },
+      {
+        "id": 3,
+        "value": "La cerise",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "value": "La poire",
+        "weight": 0
+      }
+    ],
+    "is_active": true,
+    "title": "À partir de quel fruit confectionne-t-on le burgou, un gâteau limousin ?",
+    "topic": "Cuisine"
+  },
+  {
+    "choices": [
+      {
+        "id": 1,
+        "value": "Le pamplemousse",
+        "weight": 0
+      },
+      {
+        "id": 2,
+        "value": "Le citron",
+        "weight": 1
+      },
+      {
+        "id": 3,
+        "value": "Le cassis",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "value": "Le raisin",
+        "weight": 0
+      }
+    ],
+    "is_active": true,
+    "title": "De quel fruit l'Eureka est-il une variété ?",
+    "topic": "Cuisine"
+  },
+  {
+    "choices": [
+      {
+        "id": 1,
+        "value": "La mirabelle",
+        "weight": 0
+      },
+      {
+        "id": 2,
+        "value": "La poire",
+        "weight": 1
+      },
+      {
+        "id": 3,
+        "value": "La pomme",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "value": "La prune",
+        "weight": 0
+      }
+    ],
+    "is_active": true,
+    "title": "À base de quel fruit confectionne-t-on l'eau-de-vie la Williamine ?",
+    "topic": "Cuisine"
+  },
+  {
+    "choices": [
+      {
+        "id": 1,
+        "value": "De la fille de Napoléon",
+        "weight": 0
+      },
+      {
+        "id": 2,
+        "value": "De l'épouse de Henri 4",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "value": "Du frère Clément",
+        "weight": 1
+      },
+      {
+        "id": 4,
+        "value": "Du pape Clément VII",
+        "weight": 0
+      }
+    ],
+    "is_active": true,
+    "title": "À qui doit-on le nom de clémentine ?",
+    "topic": "Cuisine"
+  },
+  {
+    "choices": [
+      {
+        "id": 1,
+        "value": "D'Alsace",
+        "weight": 0
+      },
+      {
+        "id": 2,
+        "value": "Du Médoc",
+        "weight": 1
+      },
+      {
+        "id": 3,
+        "value": "Du Languedoc",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "value": "De Bretagne",
+        "weight": 0
+      }
+    ],
+    "is_active": true,
+    "title": "De quelle région de France sont originaires les sarments, petits bâtonnets de chocolat et d'orange ?",
+    "topic": "Cuisine"
+  },
+  {
+    "choices": [
+      {
+        "id": 1,
+        "value": "Quimper",
+        "weight": 0
+      },
+      {
+        "id": 2,
+        "value": "Plougastel",
+        "weight": 1
+      },
+      {
+        "id": 3,
+        "value": "Bénodet",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "value": "Roscoff",
+        "weight": 0
+      }
+    ],
+    "is_active": true,
+    "title": "Quelle ville de Bretagne abrite le « musée de la fraise et du patrimoine » ?",
+    "topic": "Cuisine"
+  },
+  {
+    "choices": [
+      {
+        "id": 1,
+        "value": "La mirabelle",
+        "weight": 0
+      },
+      {
+        "id": 2,
+        "value": "La bergamote",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "value": "La framboise",
+        "weight": 1
+      },
+      {
+        "id": 4,
+        "value": "Le cassis",
+        "weight": 0
+      }
+    ],
+    "is_active": true,
+    "title": "À partir de quel fruit fabrique-t-on traditionnellement le bonbon belge appelé « cuberdon » ?",
+    "topic": "Cuisine"
+  },
+  {
+    "choices": [
+      {
+        "id": 1,
+        "value": "La tomate",
+        "weight": 0
+      },
+      {
+        "id": 2,
+        "value": "La prune",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "value": "L’orange",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "value": "La noix de coco",
+        "weight": 1
+      }
+    ],
+    "is_active": true,
+    "title": "À partir de quel fruit fabrique-t-on le gâteau appelé le congolais ?",
+    "topic": "Cuisine"
+  },
+  {
+    "choices": [
+      {
+        "id": 1,
+        "value": "L'Espagne",
+        "weight": 0
+      },
+      {
+        "id": 2,
+        "value": "L'Inde",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "value": "L'Italie",
+        "weight": 1
+      },
+      {
+        "id": 4,
+        "value": "La Thaïlande",
+        "weight": 0
+      }
+    ],
+    "is_active": true,
+    "title": "Dans quel pays est principalement cultivée la bergamote ?",
+    "topic": "Cuisine"
+  },
+  {
+    "choices": [
+      {
+        "id": 1,
+        "value": "La datte",
+        "weight": 0
+      },
+      {
+        "id": 2,
+        "value": "La prune",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "value": "La figue",
+        "weight": 1
+      },
+      {
+        "id": 4,
+        "value": "La fraise",
+        "weight": 0
+      }
+    ],
+    "is_active": true,
+    "title": "De quel fruit, la Brunswick est-elle une variété ?",
+    "topic": "Cuisine"
+  },
+  {
+    "choices": [
+      {
+        "id": 1,
+        "value": "Le kaki",
+        "weight": 1
+      },
+      {
+        "id": 2,
+        "value": "Le kumquat",
+        "weight": 0
+      },
+      {
+        "id": 3,
+        "value": "Le kiwi",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "value": "La groseille",
+        "weight": 0
+      }
+    ],
+    "is_active": true,
+    "title": "Quel fruit porte également le nom de plaquemine ?",
+    "topic": "Cuisine"
+  },
+  {
+    "choices": [
+      {
+        "id": 1,
+        "value": "L’ananas",
+        "weight": 0
+      },
+      {
+        "id": 2,
+        "value": "La chérimole",
+        "weight": 1
+      },
+      {
+        "id": 3,
+        "value": "Le litchi",
+        "weight": 0
+      },
+      {
+        "id": 4,
+        "value": "La mangue",
+        "weight": 0
+      }
+    ],
+    "is_active": true,
+    "title": "Quel fruit originaire des Andes pousse sur un arbre chargé d'épines qui peut mesurer jusqu'à 7 m de haut ?",
+    "topic": "Cuisine"
+  }
+]
