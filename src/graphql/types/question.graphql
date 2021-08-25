@@ -1,0 +1,20 @@
+type Query {
+  questions(topic: TopicInput): [Question!]!
+}
+
+type Question {
+  _id: ID!
+  choices: [Object]!
+  is_active: Boolean!
+  title: String!
+  topic: Object!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+}
+
+input TopicInput {
+  _id: String
+}
+
+scalar Object
+scalar DateTime
