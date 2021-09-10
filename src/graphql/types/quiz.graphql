@@ -1,0 +1,17 @@
+type Query {
+  quiz(code: String!): Quiz!
+}
+
+type Quiz {
+  _id: ID!
+  code: String!
+  is_active: Boolean!
+  players: [Object]
+  questions: [Object]!
+  user: Object!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+}
+
+scalar Object
+scalar DateTime
