@@ -1,0 +1,30 @@
+type Mutation {
+  signin(registerInput: RegisterInput): User!
+  signup(email: String!, password: String!): User!
+}
+
+type User {
+  _id: ID!
+  email: String!
+  first_name: String!
+  last_name: String!
+  role: RoleType!
+  token: String!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+}
+
+input RegisterInput {
+  confirmPassword: String!
+  email: String!
+  first_name: String!
+  last_name: String!
+  password: String!
+}
+
+enum RoleType {
+  user
+  admin
+}
+
+scalar DateTime
