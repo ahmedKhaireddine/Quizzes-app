@@ -1,8 +1,11 @@
+import bcrypt from "bcryptjs";
 import databaseConnect from "./connect";
 import questions from "../data/questions.json";
 import topics from "../data/topics.json";
+import users from "../data/users.json";
 import Question from "./models/Question";
 import Topic from "./models/Topic";
+import User from "./models/User";
 
 (async () => {
   try {
@@ -24,6 +27,17 @@ import Topic from "./models/Topic";
     });
 
     const questionsInsered = await Question.insertMany(questionsToInsert);
+
+    // Insertion of Users
+    await User.deleteMany();
+
+    const usersToInsert = users.map( user => {
+      user.password = bcrypt.hashSync(user.password, 12);
+
+      return user;
+    });
+
+    const usersInsered = await User.insertMany(usersToInsert);
   } catch (error) {
     console.log(error);
   }

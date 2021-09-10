@@ -1,0 +1,15 @@
+[
+  {
+    "email": "raphaël_petit@yahoo.fr",
+    "first_name": "Raphaël",
+    "last_name": "Petit",
+    "password": "123456"
+  },
+  {
+    "email": "arthur_dubois@gmail.fr",
+    "first_name": "Arthur",
+    "last_name": "Dubois",
+    "password": "123456",
+    "role": "admin"
+  }
+]
