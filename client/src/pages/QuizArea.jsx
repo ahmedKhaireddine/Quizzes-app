@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import AnimatedCircles from "../components/quiz/AnimatedCircles";
+import Room from "../components/quiz/Room";
 import Search from "../components/quiz/Search";
 import "./QuizArea.css";
 
@@ -8,7 +9,7 @@ const stepper = (step) => {
     case 1:
       return <Search />
     case 2:
-      return <h1 style={{ color: "white" }}>Step 2</h1>;
+      return <Room />;
     case 3:
       return <h1 style={{ color: "white" }}>Step 3</h1>;
     default:
@@ -17,7 +18,7 @@ const stepper = (step) => {
 }
 
 const QuizArea = () => {
-  const [step, setStep] = useState(1)
+  const [step, setStep] = useState(2)
 
   return (
     <div className="container">

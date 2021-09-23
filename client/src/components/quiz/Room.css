@@ -1,0 +1,66 @@
+.room-box {
+  z-index: 1;
+  box-shadow: rgba(57, 187, 182, 1) 0px 1px 4px;
+  width: 631px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-family: 'PT Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.room-box h1 {
+  font-size: 2em;
+  font-family: 'Henny Penny', cursive;
+  margin: 12px 10px;
+  color: rgba(57, 187, 182, 1);
+  text-transform: uppercase;
+  margin-top: 0;
+  text-align: center;
+}
+
+.room-box h2 {
+  font-size: 1.2em;
+  color: white;
+}
+
+.room-box ul {
+  padding-left: 0;
+}
+
+.room-box ul li {
+  box-shadow: rgba(57, 187, 182, 1) 0px 1px 4px;
+  background-color: "transparent";
+  margin: 10px auto;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  list-style: none;
+  text-align: center;
+}
+
+.room-box ul li:hover {
+  background-color: rgba(57, 187, 182, 0.2);
+}
+
+.room-box .btn-room {
+  padding: 10px 40px;
+  margin: 10px 0;
+  color: white;
+  background-color: rgb(40, 40, 43);
+  border: 1px solid rgba(57, 187, 182, 1);
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background-color: transparent;
+  border-radius: 5px;
+  font-family: 'PT Sans', sans-serif;
+  width: 30%;
+  align-self: center;
+}
+
+.room-box .btn-room:hover {
+  background: rgba(57, 187, 182, 1);
+}
+
