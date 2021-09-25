@@ -19,10 +19,15 @@
   margin-top: 0;
   text-align: center;
 }
-
+.header-room-box {
+  display: flex;
+  justify-content: space-between;
+}
 .room-box h2 {
   font-size: 1.2em;
   color: white;
+  padding-right: 10px;
+  letter-spacing: 2px;
 }
 
 .room-box ul {
@@ -38,6 +43,7 @@
   border-radius: 5px;
   list-style: none;
   text-align: center;
+  letter-spacing: 1px;
 }
 
 .room-box ul li:hover {

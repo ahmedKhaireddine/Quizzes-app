@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from "react";
 import Questions from "../../questions.json";
+import CircularTimer from "./core/CircularTimer";
 import Button from "./core/Button"
 import ChoiceList from "./core/ChoiceList";
 import "./Room.css";
 
-const Room = () => {
+const Room = ({ setScore, setStep }) => {
   const [index, setIndex] = useState(0);
   const [choiceSelected, setChoiceSelected] = useState({});
   const [answers, setAnswers] = useState([]);
-  const [score, setScore] = useState(0);
-
+  const [restart, setRestart] = useState(false);
   const { choices, title } = Questions[index];
 
   useEffect(() => {
@@ -21,19 +21,34 @@ const Room = () => {
     setScore(sum);
   }, [answers])
 
+  const timeElapsed = () => {
+    if (index < Questions.length - 1) {
+      setIndex(index + 1);
+    } else {
+      setStep(3);
+    }
+  }
 
   const next = () => {
-    if (Object.keys(choiceSelected).length > 0) {
-      setAnswers([...answers, choiceSelected]);
-      setIndex(index + 1);
-      setChoiceSelected({});
+    if (index < Questions.length - 1) {
+      if (Object.keys(choiceSelected).length > 0) {
+        setAnswers([...answers, choiceSelected]);
+        setIndex(index + 1);
+        setChoiceSelected({});
+        setRestart(true);
+      }
+    } else {
+      setStep(3);
     }
   }
 
   return (
     <div className="room-box">
       <h1>Quizzes !!!</h1>
-      <h2>{index + 1}. {title}</h2>
+      <div class="header-room-box">
+        <h2>{index + 1}. {title}</h2>
+        <CircularTimer duration={30} onFunction={timeElapsed} restart={restart} setRestart={setRestart}/>
+      </div>
       <ChoiceList
         className="choice-list"
         choices={choices}

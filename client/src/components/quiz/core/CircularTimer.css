@@ -1,0 +1,17 @@
+.circlar-timer {
+  align-self: center;
+}
+.circlar-timer .css-1rn30mb-MuiCircularProgress-root,
+.circlar-timer .css-ol7wxs-MuiTypography-root {
+  color: rgba(57, 187, 182, 1);
+}
+
+.circlar-timer .MuiBox-root span {
+  width: 50px !important;
+  height: 50px !important;
+}
+
+.circlar-timer .MuiBox-root .css-ol7wxs-MuiTypography-root {
+  font-family: 'PT Sans', sans-serif;
+  font-size: 1.4rem;
+}

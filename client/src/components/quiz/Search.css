@@ -2,7 +2,7 @@
   z-index: 1;
 }
 
-h1 {
+.search-box h1 {
   font-size: 5em;
   font-family: 'Henny Penny', cursive;
   margin: 30px 10px;
