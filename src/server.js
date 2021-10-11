@@ -5,6 +5,8 @@ import { typeDefs, resolvers } from "./graphql";
 import config from "./config";
 
 (async () => {
+  const { PORT } = config;
+
   const app = express();
 
   await databaseConnect();
@@ -15,7 +17,7 @@ import config from "./config";
 
   server.applyMiddleware({ app });
 
-  app.listen(config.port, () => {
-    console.log(`🚀  Server ready at http://localhost:${config.port}${ server.graphqlPath }`);
+  app.listen(PORT, () => {
+    console.log(`🚀  Server ready at http://localhost:${PORT}${ server.graphqlPath }`);
   });
 })();

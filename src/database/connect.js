@@ -2,12 +2,16 @@ import { connect } from "mongoose";
 import config from "../config";
 
 export default async () => {
-  const { mongodb_uri } = config;
+  const { MONGODB_URI } = config;
 
   try {
     await connect(
-      mongodb_uri,
-      { useNewUrlParser: true, useUnifiedTopology: true }
+      MONGODB_URI,
+      {
+        useCreateIndex: true,
+        useNewUrlParser: true,
+        useUnifiedTopology: true
+      }
     );
 
     console.log("🚀  Database connected");
