@@ -2,10 +2,12 @@ import bcrypt from "bcryptjs";
 import databaseConnect from "./connect";
 import questions from "../data/questions.json";
 import quizzes from "../data/quizzes.json";
+import players from "../data/players.json"
 import topics from "../data/topics.json";
 import users from "../data/users.json";
 import Question from "./models/Question";
 import Quiz from "./models/Quiz";
+import Player from "./models/Player";
 import Topic from "./models/Topic";
 import User from "./models/User";
 
@@ -41,12 +43,18 @@ import User from "./models/User";
 
     const usersInsered = await User.insertMany(usersToInsert);
 
+    // Insertion of players
+    await Player.deleteMany();
+
+    const playersInsered = await Player.insertMany(players);
+
     // Insertion of quizzes
     await Quiz.deleteMany();
 
     const quizzesToInsert = quizzes.map( quiz => {
       quiz.code = Math.random().toString(36).slice(2).toUpperCase();
       quiz.questions = questionsInsered.slice(0, 10).map( question => question._id );
+      quiz.players = playersInsered.map(player => player._id);
       quiz.user = usersInsered.find( user => user.role == "user" )._id;
 
       return quiz;
