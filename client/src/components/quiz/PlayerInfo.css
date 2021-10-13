@@ -1,0 +1,80 @@
+.info-box {
+  z-index: 1;
+  box-shadow: rgba(57, 187, 182, 1) 0px 1px 4px;
+  width: 531px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.8);
+  font-family: 'PT Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.info-box h1 {
+  font-size: 2em;
+  font-family: 'Henny Penny', cursive;
+  margin: 12px 10px;
+  color: rgba(57, 187, 182, 1);
+  text-transform: uppercase;
+  margin-top: 0;
+  text-align: center;
+}
+
+.list-info-box {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0 0;
+}
+
+.list-info-box li {
+  margin: 15px 0;
+}
+
+.list-info-box li:last-child {
+  text-align: center;
+}
+
+.list-info-box li label {
+  display: block;
+  width: calc(84% - 20px);
+  margin: 0 auto;
+}
+
+
+.input-info-box {
+  display: block;
+  border: none;
+  background-color: transparent;
+  border-bottom: 2px solid rgba(57, 187, 182, 1);
+  padding: 10px;
+  width: calc(80% - 20px);
+  margin: 0px auto;
+  color: white;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.input-info-box:focus {
+  outline: none;
+}
+
+.info-box .btn-info-box {
+  padding: 10px 30px;
+  color: white;
+  background-color: rgb(40, 40, 43);
+  border: 1px solid rgba(57, 187, 182, 1);
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  background-color: transparent;
+  border-radius: 5px;
+  font-family: 'PT Sans', sans-serif;
+  width: 30%;
+  align-self: center;
+  margin: 25px auto 0;
+}
+
+.info-box .btn-info-box:hover {
+  background: rgba(57, 187, 182, 1);
+}
