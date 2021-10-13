@@ -3,8 +3,10 @@ import Button from "./core/Button";
 import Input from "./core/Input";
 import "./Search.css";
 
-const Search = () => {
+const Search = (props) => {
   const [code, setCode] = useState("");
+  const { setStep } = props;
+  const nextStep = () => setStep(2);
 
   return (
     <section className="search-box">
@@ -16,7 +18,7 @@ const Search = () => {
         placeholder="Code PIN Du Quizz"
         onFunction={setCode}
       />
-      <Button className="btn">Valider</Button>
+      <Button className="btn" onFunction={nextStep}>Valider</Button>
     </section>
   )
 }
