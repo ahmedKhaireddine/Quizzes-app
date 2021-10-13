@@ -8,6 +8,7 @@ import "./Room.css";
 const Room = ({ setScore, setStep }) => {
   const [index, setIndex] = useState(0);
   const [choiceSelected, setChoiceSelected] = useState({});
+  const [startQuiz, setStartQuiz] = useState(false);
   const [answers, setAnswers] = useState([]);
   const [restart, setRestart] = useState(false);
   const { choices, title } = Questions[index];
@@ -25,7 +26,7 @@ const Room = ({ setScore, setStep }) => {
     if (index < Questions.length - 1) {
       setIndex(index + 1);
     } else {
-      setStep(3);
+      setStep(4);
     }
   }
 
@@ -38,24 +39,33 @@ const Room = ({ setScore, setStep }) => {
         setRestart(true);
       }
     } else {
-      setStep(3);
+      setStep(4);
     }
   }
 
   return (
     <div className="room-box">
       <h1>Quizzes !!!</h1>
-      <div class="header-room-box">
-        <h2>{index + 1}. {title}</h2>
-        <CircularTimer duration={30} onFunction={timeElapsed} restart={restart} setRestart={setRestart}/>
-      </div>
-      <ChoiceList
-        className="choice-list"
-        choices={choices}
-        choiceSelected={choiceSelected}
-        onFunction={setChoiceSelected}
-      />
-      <Button className="btn-room" onFunction={next}>Valider</Button>
+      { startQuiz ? (
+        <>
+          <div class="header-room-box">
+            <h2>{index + 1}. {title}</h2>
+            <CircularTimer duration={30} onFunction={timeElapsed} restart={restart} setRestart={setRestart}/>
+          </div>
+          <ChoiceList
+            className="choice-list"
+            choices={choices}
+            choiceSelected={choiceSelected}
+            onFunction={setChoiceSelected}
+          />
+          <Button className="btn-room" onFunction={next}>Valider</Button>
+        </>
+      ) : (
+          <>
+            <p className="text-room">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi debitis deleniti odio assumenda laudantium, voluptatibus a vitae sed voluptatum nisi quidem ab rem aspernatur, doloribus animi optio et doloremque fugit?</p>
+            <button className="btn-room" onClick={() => setStartQuiz(true)}>Commencer</button>
+          </>
+      )}
     </div>
   )
 }

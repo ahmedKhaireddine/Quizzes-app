@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 const Input = (props) => {
   const {
-    type, name, className, placeholder, onFunction
+    className, name, onFunction, placeholder, type
   } = props;
 
   return <input
@@ -16,11 +16,11 @@ const Input = (props) => {
 }
 
 Input.propTypes = {
-  type: PropTypes.string,
-  name: PropTypes.string,
   className: PropTypes.string,
+  name: PropTypes.string,
+  onFunction: PropTypes.func,
   placeholder: PropTypes.string,
-  onFunction: PropTypes.func
+  type: PropTypes.string,
 }
 
 export default Input;

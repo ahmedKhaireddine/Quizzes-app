@@ -19,10 +19,19 @@
   margin-top: 0;
   text-align: center;
 }
+
+.text-room {
+  color: white;
+  text-align: center;
+  margin: 20px auto;
+  line-height: 29pt;
+}
+
 .header-room-box {
   display: flex;
   justify-content: space-between;
 }
+
 .room-box h2 {
   font-size: 1.2em;
   color: white;
