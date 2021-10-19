@@ -1,0 +1,16 @@
+type Mutation {
+  createNewPlayer(questionId: ID!, email: String!, full_name: String!): Player!
+}
+
+type Player {
+  _id: ID!
+  answers: [Object]
+  email: String!
+  full_name: String!
+  score: String!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+}
+
+scalar DateTime
+scalar Object
