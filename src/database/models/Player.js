@@ -5,7 +5,7 @@ export default model(
   new Schema(
     {
       "answers": [{
-        "choice_id": { type: Number, required: true },
+        "choice_id": { type: String, required: true },
         "question_id": { type: Schema.Types.ObjectId, ref: 'Question' }
       }],
       "email": { type: String, required: true },
