@@ -1,8 +1,13 @@
 import Player from "../database/models/Player";
 import Quiz from "../database/models/Quiz";
+import { validateAddInput } from "../validations/player"
 
 const createNewPlayer = async (questionId, email, full_name) => {
   try {
+    const { errors, valid } = validateAddInput(email, full_name);
+
+    if (!valid) throw new Error("Errors", errors);
+
     const playerToInserd = new Player({
       email,
       full_name
