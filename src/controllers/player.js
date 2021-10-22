@@ -29,4 +29,24 @@ const createNewPlayer = async (questionId, email, full_name) => {
   }
 }
 
-export default { createNewPlayer }
+const updateAnswersAndScore = async (_id, answers, score) => {
+  try {
+    const conditions = { _id };
+    const fieldsToEdit = { answers, score };
+
+    const playerEdit = await Player.findOneAndUpdate(
+      conditions,
+      { $set: fieldsToEdit }
+    );
+
+    if (!playerEdit) throw new Error("Player does not exist !!")
+
+    return {
+      ...playerEdit._doc
+    }
+  } catch(err) {
+    throw new Error(err)
+  }
+}
+
+export default { createNewPlayer, updateAnswersAndScore }
