@@ -1,5 +1,5 @@
 import express from "express";
-import { ApolloServer, gql } from 'apollo-server-express';
+import { ApolloServer } from 'apollo-server-express';
 import databaseConnect from "./database/connect";
 import { typeDefs, resolvers } from "./graphql";
 import config from "./config";

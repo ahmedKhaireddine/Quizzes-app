@@ -1,6 +1,6 @@
 import Player from "../database/models/Player";
 import Quiz from "../database/models/Quiz";
-import { validateAddInput } from "../validations/player"
+import { validateAddInput, validateUpdateInput } from "../validations/player"
 
 const createNewPlayer = async (questionId, email, full_name) => {
   try {
@@ -31,6 +31,10 @@ const createNewPlayer = async (questionId, email, full_name) => {
 
 const updateAnswersAndScore = async (_id, answers, score) => {
   try {
+    const { errors, valid } = validateUpdateInput(_id, answers, score);
+
+    if (!valid) throw new Error("Errors", errors);
+
     const conditions = { _id };
     const fieldsToEdit = { answers, score };
 
