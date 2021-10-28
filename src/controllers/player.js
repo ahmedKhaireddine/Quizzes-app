@@ -33,21 +33,24 @@ const updateAnswersAndScore = async (_id, answers, score) => {
   try {
     const { errors, valid } = validateUpdateInput(_id, answers, score);
 
-    if (!valid) throw new Error("Errors", errors);
+    if (!valid) return { errors, status: "FAILED" }
 
     const conditions = { _id };
     const fieldsToEdit = { answers, score };
 
     const playerEdit = await Player.findOneAndUpdate(
       conditions,
-      { $set: fieldsToEdit }
+      { $set: fieldsToEdit },
+      { new: true }
     );
 
-    if (!playerEdit) throw new Error("Player does not exist !!")
-
-    return {
-      ...playerEdit._doc
+    if (!playerEdit) return {
+      errors: [{ key: "", message: "Player does not exist !!" }],
+      status: "FAILED"
     }
+
+    return  { status: "SUCCESS" }
+
   } catch(err) {
     throw new Error(err)
   }
