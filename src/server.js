@@ -1,5 +1,5 @@
 import express from "express";
-import { ApolloServer } from 'apollo-server-express';
+import { ApolloServer} from 'apollo-server-express';
 import databaseConnect from "./database/connect";
 import { typeDefs, resolvers } from "./graphql";
 import config from "./config";
@@ -11,7 +11,18 @@ import config from "./config";
 
   await databaseConnect();
 
-  const server = new ApolloServer({ typeDefs, resolvers });
+  const server = new ApolloServer({
+    typeDefs,
+    resolvers,
+    formatError: error => {
+      console.log({
+        code : error.extensions.code ,
+        message: error.message
+      })
+
+      return { message: "Internal Server Error." }
+    }
+   });
 
   await server.start();
 
