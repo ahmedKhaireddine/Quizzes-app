@@ -1,6 +1,6 @@
 type Mutation {
   createNewPlayer(questionId: ID!, email: String!, full_name: String!): Player!
-  updateAnswersAndScoreById(_id: ID!, answers: [Object!]!, score: Int!): Player!
+  updateAnswersAndScoreById(_id: ID!, answers: [Object!]!, score: Int!): PlayerUpdated!
 }
 
 type Player {
@@ -11,6 +11,11 @@ type Player {
   score: Int!
   createdAt: DateTime!
   updatedAt: DateTime!
+}
+
+type PlayerUpdated {
+  errors: [Error!]
+  status: String!
 }
 
 scalar DateTime
