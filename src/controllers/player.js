@@ -4,25 +4,39 @@ import { validateAddInput, validateUpdateInput } from "../validations/player"
 
 const createNewPlayer = async (questionId, email, full_name) => {
   try {
-    const { errors, valid } = validateAddInput(email, full_name);
+    const { errors, valid } = validateAddInput(email, full_name, questionId);
 
-    if (!valid) throw new Error("Errors", errors);
-
-    const playerToInserd = new Player({
-      email,
-      full_name
-    });
-
-    const playerInserd = await playerToInserd.save();
+    if (!valid) return { errors, status: "FAILED" };
 
     const quizFound = await Quiz.findById(questionId).exec();
 
-    quizFound.players.push(playerInserd);
+    if (!quizFound) return {
+      errors: [{ key: "", message: "Quiz does not exist !!" }],
+      status: "FAILED"
+    }
 
-    await quizFound.save();
+    const playerAlreadyExists = await Player.findOne({ email });
 
-    return {
-      ...playerInserd._doc
+    if (playerAlreadyExists) {
+      quizFound.players.push(playerAlreadyExists);
+
+      return {
+        player: playerAlreadyExists,
+        status: "SUCCESS"
+      }
+    } else {
+      const playerToInserd = new Player({ email, full_name });
+
+      const playerInserd = await playerToInserd.save();
+
+      quizFound.players.push(playerInserd);
+
+      await quizFound.save();
+
+      return {
+        player: playerInserd._doc,
+        status: "SUCCESS"
+      }
     }
   } catch(err) {
     throw new Error(err)

@@ -3,8 +3,13 @@ import _ from "lodash";
 const FULL_NAME_REGEX = /^[a-zA-ZàáâäãåąčćęèéêëėįìíîïłńòóôöõøùúûüųūÿýżźñçčšžÀÁÂÄÃÅĄĆČĖĘÈÉÊËÌÍÎÏĮŁŃÒÓÔÖÕØÙÚÛÜŲŪŸÝŻŹÑßÇŒÆČŠŽ∂ð ,.\'-]+$/;
 const EMAIL_REGEX = /^(([^<>()\[\]\\.,;:\s@#!?&"]+(\.[^<>()%{}\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
 
-export const validateAddInput = (email, full_name) => {
+export const validateAddInput = (email, full_name, questionId) => {
   const errors = [];
+
+  if (_.isEmpty(questionId))
+    errors.push({ key: "questionId", message: "The question id should not be empty."})
+  else if(questionId.length !== 24)
+    errors.push({ key: "questionId", message: "The question id must be a 24 character string."})
 
   if (full_name.trim() === "")
     errors.push({ key: "full_name", message: "First name must not be empty."})
