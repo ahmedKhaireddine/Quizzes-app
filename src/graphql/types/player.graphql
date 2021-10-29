@@ -1,5 +1,5 @@
 type Mutation {
-  createNewPlayer(questionId: ID!, email: String!, full_name: String!): Player!
+  createNewPlayer(questionId: ID!, email: String!, full_name: String!): PlayerCreated!
   updateAnswersAndScoreById(_id: ID!, answers: [Object!]!, score: Int!): PlayerUpdated!
 }
 
@@ -11,6 +11,12 @@ type Player {
   score: Int!
   createdAt: DateTime!
   updatedAt: DateTime!
+}
+
+type PlayerCreated {
+  errors: [Error!]
+  player: Player
+  status: String!
 }
 
 type PlayerUpdated {
