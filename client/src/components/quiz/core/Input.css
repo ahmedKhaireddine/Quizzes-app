@@ -1,0 +1,16 @@
+.errors {
+  color: red;
+  display: flex;
+  align-items: center;
+  font-style: italic;
+  font-size: 0.9em;
+  padding: 7px 0 12px;
+}
+
+.errors span {
+  vertical-align: bottom;
+  margin-right: 6px;
+}
+.errors .material-icons-round {
+  font-size: 1.5em;
+}

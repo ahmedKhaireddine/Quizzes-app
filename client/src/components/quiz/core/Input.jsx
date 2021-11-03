@@ -1,26 +1,44 @@
 import React from "react";
 import PropTypes from "prop-types";
+import "./Input.css";
 
 const Input = (props) => {
   const {
-    className, name, onFunction, placeholder, type
+    className,
+    error,
+    label,
+    name,
+    placeholder,
+    register,
+    type
   } = props;
 
-  return <input
-    type={type}
-    name={name}
-    className={className}
-    placeholder={placeholder}
-    onChange={(e) => onFunction(e.target.value)}
-  />
+  return(
+    <>
+      { label &&  <label htmlFor={name}> {label} </label> }
+      <input
+        className={className}
+        placeholder={placeholder}
+        {...register(name)}
+        type={type}
+      />
+      { error &&
+        <small className="errors">
+          <span className="material-icons-round">warning</span>
+          <span>{error}</span>
+        </small>
+      }
+    </>
+  )
 }
 
 Input.propTypes = {
   className: PropTypes.string,
+  error: PropTypes.string,
+  label: PropTypes.string,
   name: PropTypes.string,
-  onFunction: PropTypes.func,
   placeholder: PropTypes.string,
-  type: PropTypes.string,
+  type: PropTypes.string
 }
 
 export default Input;
