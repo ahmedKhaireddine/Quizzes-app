@@ -28,6 +28,11 @@
   text-align: center;
 }
 
+.search-box .errors {
+  width: 87%;
+  margin: 0 auto;
+}
+
 .search-input::placeholder {
   color: #B0BEC5;
 }
