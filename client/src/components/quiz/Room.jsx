@@ -20,7 +20,7 @@ const Room = ({ setScore, setStep }) => {
       sum = answers.map(answer => answer.weight).reduce((sum, value) => sum + value);
 
     setScore(sum);
-  }, [answers])
+  }, [answers, setScore])
 
   const timeElapsed = () => {
     if (index < Questions.length - 1) {
