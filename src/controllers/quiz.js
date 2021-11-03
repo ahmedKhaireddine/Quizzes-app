@@ -1,11 +1,14 @@
 import Quiz from "../database/models/Quiz";
+import Player from "../database/models/Player";
 
 const findByCode = async (code) => {
   try {
     const conditions = { code };
+    const select = "code is_active questions players user createdAt updatedAt";
 
     return await Quiz
-      .findOne(conditions, "code is_active questions user createdAt updatedAt")
+      .findOne(conditions, select)
+      .populate("players", "_id email full_name score")
       .populate({
         path: "questions",
         select: "_id choices is_active title",
